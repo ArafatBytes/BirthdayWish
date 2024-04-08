@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter"style="background-image: url(bg.jpg); height: 180px; width: 180px;">
+                    <div class="text" style="color: black;">
+                        <strong>To the prettiest and the sweetest woman I've seen,</strong>
+                        <p style="font-size: 7px; color: black;">
+                            Trust me, When I tell you that you're the reason why I live, I genuinely tell it from my heart.You're such a pure and gentle soul with a calm mindset to overcome anything. I really appreciate your presence and efforts of being with me.I love seeing you smile and happy.Again you turned 1 year older than me shit!Couldn't gift you much things for your birthday.I love you to the moon and back.Wish you a Happy 21st Birthday.I really love you shona. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
